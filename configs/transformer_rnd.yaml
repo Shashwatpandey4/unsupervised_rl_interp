@@ -1,0 +1,19 @@
+# configs/transformer_rnd.yaml
+
+env: coinrun
+steps: 1000000
+device: cuda
+num_levels: 10  
+
+agent:
+  num_envs: 8
+  gamma: 0.99
+  lr: 0.0001
+  eps_clip: 0.2
+  update_epochs: 4
+  batch_size: 128
+  int_coef: 0.25
+  rollout_length: 512
+  transformer_layers: 4
+  embed_dim: 128
+  num_heads: 8

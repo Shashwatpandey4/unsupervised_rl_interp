@@ -1,0 +1,14 @@
+env: coinrun
+steps: 1000000
+device: cuda
+num_levels: 10
+
+agent:
+  num_envs: 8
+  buffer_size: 200000
+  batch_size: 64
+  gamma: 0.99
+  lr: 0.0001
+  update_interval: 1
+  target_update_freq: 500
+  beta: 0.015
