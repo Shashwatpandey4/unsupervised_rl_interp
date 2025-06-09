@@ -28,12 +28,10 @@ Our analysis reveals several key insights about how different exploration strate
 ![UMAP Embeddings](visualizations/embeddings/umap_transformer_rnd.png)
 *UMAP visualization of learned representations in Transformer-RND agent*
 
-## 🔍 Interpretability Visualizations
+##  Interpretability Visualizations
 
 ### Attention Maps (GradCAM)
 
-![GradCAM Evolution](visualizations/attention_landscapes/gradcam_all_agents_evolution_final.png)
-*Evolution of attention maps across different agents using GradCAM*
 
 ### Combined Rewards Analysis
 
@@ -45,7 +43,7 @@ Our analysis reveals several key insights about how different exploration strate
 ![Attention Landscape](visualizations/attention_landscapes/transformer_rnd_attention_landscape.png)
 *Attention landscape visualization for Transformer-RND agent*
 
-## 🚀 Features
+##  Features
 
 - **Multi-Agent Support**: DQN, RND, ICM, PPO, and Transformer-RND implementations
 - **Attention Analysis**: Grad-CAM and LRP visualizations
@@ -53,7 +51,7 @@ Our analysis reveals several key insights about how different exploration strate
 - **Behavioral Metrics**: Attention diversity, change rate, trajectory entropy
 - **Comprehensive Logging**: CSV + TensorBoard integration
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
@@ -71,7 +69,7 @@ Our analysis reveals several key insights about how different exploration strate
 └── run_all.py         # Training launcher
 ```
 
-## 🛠️ Installation
+##  Installation
 
 ```bash
 # Clone the repository
@@ -109,7 +107,7 @@ The repository includes tools for:
 - Representation learning analysis
 - Behavioral metrics computation
 
-## 📝 Citation
+##  Citation
 
 If you use this code in your research, please cite our paper:
 
